@@ -38,7 +38,7 @@ Install the following Python libraries:
 ```bash
 pip install pandas numpy matplotlib seaborn scikit-learn scipy fpdf
 
-**## How to Run**
+How to Run:
 Place breast_cancer_data.csv and breast_cancer_project.py in the same folder.
 
 Open terminal and navigate to the project folder:
@@ -47,13 +47,12 @@ cd "PROJECT2"
 Run the Python script:
 python breast_cancer_project.py
 
-
-**## Outputs:**
+Outputs:
 Plots will be saved in the plots/ folder.
 PDF report Breast_Cancer_Analysis_Report.pdf will be generated in the project folder.
 Terminal will display dataset columns, first 5 rows, and other intermediate outputs.
 
-**Results:**
+Results:
 High model accuracy in predicting benign vs malignant tumors.
 Key features influencing prediction: radius_mean, texture_mean, concavity_mean.
 Statistical tests show significant differences between benign and malignant tumors.
